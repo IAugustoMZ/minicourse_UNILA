@@ -29,3 +29,4 @@ Having the necessary data for the assets, which consists in the measurements of 
 - Scikit-Learn for machine learning modeling
 - Pandas and Numpy for data preprocessing
 - Dash and Plotly for dashboard deploy and results visualization
+- Git for version control
