@@ -12,8 +12,11 @@ RAW_DATA_PATH = os.path.join(
 PROCESSED_DATA_PATH = os.path.join(
     PROJECT_ROOT, 'data', '2_processed'
 )
+PREPARED_DATA_PATH = os.path.join(
+    PROJECT_ROOT, 'data', '3_model_path'
+)
 
 # constants for the project
-real_names = ['asset_id', 'runtime', 'set1', 'set2', 'set3']
+real_names = ['history_id', 'runtime', 'set1', 'set2', 'set3']
 for i in range(21):
     real_names.append(f'tag{i+1}')
