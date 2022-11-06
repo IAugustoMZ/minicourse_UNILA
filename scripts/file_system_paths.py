@@ -13,7 +13,7 @@ PROCESSED_DATA_PATH = os.path.join(
     PROJECT_ROOT, 'data', '2_processed'
 )
 PREPARED_DATA_PATH = os.path.join(
-    PROJECT_ROOT, 'data', '3_model_path'
+    PROJECT_ROOT, 'data', '3_model_data'
 )
 
 # constants for the project
