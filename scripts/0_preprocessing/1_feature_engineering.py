@@ -48,8 +48,8 @@ def create_failure_class(row: pd.DataFrame,
                          data: pd.DataFrame) -> int:
     """
     create a failure class
-    1 - the plant will fail in the next 20 cycles
-    0 - the plant will not fail in the next 20 cycles
+    1 - the plant will fail in the next 50 cycles
+    0 - the plant will not fail in the next 50 cycles
 
     Parameters
     ----------
@@ -64,7 +64,7 @@ def create_failure_class(row: pd.DataFrame,
         failure class
     """
     # business threshold
-    FORECAST_WINDOW = 20
+    FORECAST_WINDOW = 50
 
     # get the maxium runtime of that specific history id
     max_runtime_id = data.loc[row['history_id'], 'max_runtime']
