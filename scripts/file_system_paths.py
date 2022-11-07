@@ -15,6 +15,12 @@ PROCESSED_DATA_PATH = os.path.join(
 PREPARED_DATA_PATH = os.path.join(
     PROJECT_ROOT, 'data', '3_model_data'
 )
+DASHBOARD_PATH = os.path.join(
+    PROJECT_ROOT, 'data', '4_dashboard_data'
+)
+
+# define models paths
+MODELS = os.path.join(PROJECT_ROOT, 'models')
 
 # constants for the project
 real_names = ['history_id', 'runtime', 'set1', 'set2', 'set3']
