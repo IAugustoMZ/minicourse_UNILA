@@ -161,7 +161,8 @@ layout = dbc.Col([
                        tooltip={'placement': 'bottom', 'always_visible': False},
                        id='tag21')
         ], width=6)
-    ])
+    ]),
+    html.Hr()
 ], id='sidebar_complete')
 
 # callbacks ----------------------------------------------------------------------------------------------
